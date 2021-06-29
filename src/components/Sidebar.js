@@ -79,7 +79,7 @@ const Form = styled.form`
 
 const LogoWrapper = styled.div`
   img {
-    display: inline-block;
+    display: block;
     margin: auto;
     height: 6rem;
   }
@@ -102,7 +102,7 @@ const Container = styled.div`
   min-width: 400px;
   backdrop-filter: blur(20px);
   background-color: rgba(255, 255, 255, 0.8);
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
