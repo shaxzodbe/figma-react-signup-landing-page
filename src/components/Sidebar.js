@@ -80,7 +80,7 @@ const Form = styled.form`
 const LogoWrapper = styled.div`
   img {
     display: block;
-    margin: auto;
+    margin: 3rem auto 0; 
     height: 6rem;
   }
   h3 {
